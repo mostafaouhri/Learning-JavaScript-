@@ -1,19 +1,22 @@
-/*
-==> Control Flow :
-*/
-
+//  Nasted If :
 
 var price = 100;
-var discount = true;
+var discount = false;
 var discountAmount = 30;
 var country = 'Morocco';
+var student = true;
 
 
 if (discount === true) {
     price -= discountAmount ;
 }
 else if (country === "Morocco") {
-    price -= 40 ;
+    if (student === true ) {
+        price -= discountAmount + 30 ;
+    }
+    else {
+        price -= discountAmount + 10 ;
+    }
 }
 else { 
     price -= 10;

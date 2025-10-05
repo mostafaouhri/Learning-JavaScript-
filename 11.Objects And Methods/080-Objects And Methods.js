@@ -5,7 +5,7 @@
 --- dynamic property name
 */
 
-console.log("%c========>  #80  <========", "color:red");
+console.log("%c===> [dot , bracket]#80 <===", "color:red");
 let myVar = "country"
 
 let user2 = {

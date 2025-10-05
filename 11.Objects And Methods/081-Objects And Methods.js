@@ -3,7 +3,7 @@
 --- Nested object and trainings
 */
 
-console.log("%c========>  Nested object #81  <========", "color:red");
+console.log("%c===> [Nested object] #81 <===", "color:red");
 
 let user3 = {
     theName: "Mostafa",

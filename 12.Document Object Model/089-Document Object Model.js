@@ -18,10 +18,10 @@ myElement2.setAttributeNode(myAttr);
 myElement2.setAttribute("data-test", "testing");
 
 // append comment to element
-myElement2.append(myComment);
+myElement2.appendChild(myComment);
 
 // append text to element
-myElement2.append(myText);
+myElement2.appendChild(myText);
 
 // append element to Body
 document.body.appendChild(myElement2);

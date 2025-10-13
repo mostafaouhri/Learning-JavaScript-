@@ -27,6 +27,10 @@ console.log(window.localStorage.getItem('color'));
 console.log(window.localStorage.color);
 console.log(window.localStorage["color"]);
 
+
+// clear all
+window.localStorage.clear();
+
 // set Color in page 
 document.body.style.backgroundColor = window.localStorage.getItem('color');
 
@@ -35,6 +39,3 @@ console.log(window.localStorage.key(0));
 
 // remove one
 window.localStorage.removeItem('fontWeight');
-
-// clear all
-// window.localStorage.clear();

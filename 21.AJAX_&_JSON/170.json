@@ -1,0 +1,15 @@
+{
+    "string": "Mostafa",
+    "number": 100,
+    "object": {
+        "MC": "Rabat",
+        "EG": "Giza"
+    },
+    "array": [
+        "HTML",
+        "CSS",
+        "JS"
+    ],
+    "boolean": true,
+    "null": null
+}
